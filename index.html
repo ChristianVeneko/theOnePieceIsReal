@@ -34,6 +34,11 @@
           <img src="./img/8 (Custom).jpg" alt="" />
         </span>
       </div>
-      <audio src="./canWeGetMuchHigher.mp3" autoplay loop></audio>
+      <audio id="audio" src="./canWeGetMuchHigher.mp3" autoplay loop></audio>
+      <script>
+        window.addEventListener('DOMContentLoaded',()=>{
+           document.getElementById('audio').play();
+        });
+     </script>
 </body>
 </html>
